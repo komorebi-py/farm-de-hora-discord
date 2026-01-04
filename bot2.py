@@ -68,4 +68,5 @@ async def calls(interaction: discord.Interaction):
 
 # -------- RUN --------
 
-bot.run(token)
+bot.run(os.environ["TOKEN"])
+
